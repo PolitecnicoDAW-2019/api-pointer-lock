@@ -1,0 +1,43 @@
+{
+	"name": "api-pointer-lock",
+	"version": "0.0.1",
+	"description": "Pointer Lock provides input methods based on the movement of the mouse over time, not just the absolute position of the mouse cursor",
+	"main": "sources/index.html",
+	"scripts": {
+		"format": "prettier --write \"sources/**/*.js\"",
+		"start:prod": "sass sources/assets/styles/import.scss:sources/assets/styles/import.css --style compressed",
+		"start:dev": "sass --watch sources/assets/styles/import.scss:sources/assets/styles/import.css --style compressed",
+		"release": "standard-version"
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+			"pre-commit": "echo pre-commit enviado desde husky",
+			"pre-push": "npm run release"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PolitecnicoDAW/api-pointer-lock.git"
+	},
+	"keywords": [
+		"JAVASCRIPT",
+		"HTML5",
+		"SASS",
+		"COMMITLINT",
+		"CHANGELOG",
+		"HUSKY"
+	],
+	"author": "Alejandro Torres",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PolitecnicoDAW/api-pointer-lock/issues"
+	},
+	"homepage": "https://github.com/PolitecnicoDAW/api-pointer-lock#readme",
+	"dependencies": {
+		"@commitlint/config-angular": "^8.3.4",
+		"commitlint": "^8.3.5",
+		"husky": "^4.2.2",
+		"standard-version": "^7.1.0"
+	}
+}
