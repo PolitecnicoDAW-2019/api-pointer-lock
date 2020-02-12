@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: $colorDark;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #2c2c2c;
+	border-radius: 3rem;
+}
