@@ -9,14 +9,47 @@
 	</head>
 
 	<body>
-		<header></header>
+		<header>
+			<section>
+				<article class="container-title">
+					<span
+						class="rellax"
+						data-rellax-speed="-4"
+						data-rellax-percentage="0.5"
+						>api pointer lock</span
+					>
+				</article>
+				<article class="container-information">
+					<div
+						class="rellax glass"
+						data-rellax-speed="-2"
+						data-rellax-percentage="0.5"
+					></div>
+				</article>
+			</section>
+			<section>
+				<a
+					href="#game"
+					class="rellax button-start"
+					data-rellax-speed="3"
+					data-rellax-percentage="0.5"
+					>Comenzar</a
+				>
+			</section>
+		</header>
 		<main>
-			<canvas id="canvas" width="640" height="360"
-				>Your browser doesn't support HTML5 canvas</canvas
-			>
-			<div id="scout"></div>
+			<a href="#" name="game" class="destiny"></a>
+			<section class="container-scout">
+				<article id="scout"></article>
+			</section>
+			<section class="container-canvas">
+				<canvas id="canvas" width="800" height="500"></canvas>
+			</section>
 		</main>
 	</body>
 
+	<script src="services/rellax.js"></script>
+	<script src="services/rellax.app.js"></script>
+	<script src="services/scroll.js"></script>
 	<script src="services/index.js"></script>
 </html>
