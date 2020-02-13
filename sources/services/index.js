@@ -2,9 +2,9 @@
 	const canvas = document.getElementById('canvas');
 	const scout = document.getElementById('scout');
 	const ctx = canvas.getContext('2d');
-	const RADIUS = 20;
-	let x = 150;
-	let y = 50;
+	const RADIUS = 10;
+	let x = 250;
+	let y = 150;
 
 	const degToRad = degrees => {
 		let result = (Math.PI / 180) * degrees;
@@ -14,7 +14,7 @@
 	const canvasDraw = () => {
 		ctx.fillStyle = '#000000';
 		ctx.fillRect(0, 0, canvas.width, canvas.height);
-		ctx.fillStyle = '#FF0000';
+		ctx.fillStyle = '#ffffff';
 		ctx.beginPath();
 		ctx.arc(x, y, RADIUS, 0, degToRad(360), true);
 		ctx.fill();
