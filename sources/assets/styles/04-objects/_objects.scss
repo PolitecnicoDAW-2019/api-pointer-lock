@@ -1,21 +1,20 @@
-.button-start {
-	display: block;
-	width: 250px;
-	height: 60px;
-	line-height: 60px;
-	text-align: center;
-	font-size: 1.3em;
-	text-decoration: none;
-	border: solid 2px rgba(255, 255, 255, 0.3);
-	border-radius: 8px;
-	color: rgba(255, 255, 255, 0.3);
-	animation: flipInX 2s ease 1s both;
+.mouse {
+	display: flex;
+	justify-content: center;
+	width: 45px;
+	height: 65px;
+	border: solid 2px #ffffff;
+	border-radius: 30px;
 	backface-visibility: visible;
-	transition: all 0.2s ease;
+	animation: flipInX 2s ease 1s both;
 
-	&:hover {
-		color: rgba(255, 255, 255, 1);
-		border: solid 2px rgba(255, 255, 255, 1);
+	.roller {
+		width: 8px;
+		height: 13px;
+		background-color: #ffffff;
+		border-radius: 30px;
+		transform: translatey(10px);
+		animation: scrolling 2s ease infinite;
 	}
 }
 

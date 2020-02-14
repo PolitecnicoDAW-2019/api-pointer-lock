@@ -7,6 +7,12 @@
 	border-radius: 8px;
 	backdrop-filter: blur(9px) saturate(120%);
 	background-color: rgba(255, 255, 255, 0.03);
+
+	h1 {
+		text-transform: uppercase;
+		color: $colorDark;
+		font-size: 1.2em;
+	}
 }
 
 /*@media only screen and (min-width: 1920px) {
