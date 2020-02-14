@@ -1,6 +1,7 @@
 (() => {
 	const canvas = document.getElementById('canvas');
-	const scout = document.getElementById('scout');
+	const scoutX = document.getElementById('scoutX');
+	const scoutY = document.getElementById('scoutY');
 	const ctx = canvas.getContext('2d');
 	const RADIUS = 10;
 	let x = 250;
@@ -65,7 +66,8 @@
 		}
 
 		canvasDraw();
-		scout.textContent = 'X position: ' + x + ', Y position: ' + y;
+		scoutX.textContent = x;
+		scoutY.textContent = y;
 	};
 
 	const app = (() => {
