@@ -1,7 +1,7 @@
 const scroll = (() => {
 	const scout = document.getElementById('scout');
 	const effects = () => {
-		if (window.scrollY >= 1000) {
+		if (window.scrollY >= 730) {
 			scout.classList.add('animation-fadeInRight');
 		}
 	};

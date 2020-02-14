@@ -1,6 +1,6 @@
 {
 	"name": "api-pointer-lock",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Pointer Lock provides input methods based on the movement of the mouse over time, not just the absolute position of the mouse cursor",
 	"main": "sources/index.html",
 	"scripts": {
