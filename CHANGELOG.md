@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/PolitecnicoDAW/api-pointer-lock/compare/v0.0.3...v0.0.4) (2020-02-14)
+
+
+### Features
+
+* **layout:** new feature ([5247ce1](https://github.com/PolitecnicoDAW/api-pointer-lock/commit/5247ce1794a17acb8d61c35bae4e1857a4a45ff3))
+* **structure:** new feature ([5ff627f](https://github.com/PolitecnicoDAW/api-pointer-lock/commit/5ff627f715e388b689c733cb1e84f0dfc60036c2))
+
 ### [0.0.3](https://github.com/PolitecnicoDAW/api-pointer-lock/compare/v0.0.2...v0.0.3) (2020-02-13)
 
 
