@@ -8,13 +8,15 @@
   <img src="https://img.shields.io/badge/license-MIT-orange.svg" alt="React Native is released under the MIT license." />
   <img src="https://img.shields.io/badge/npm%20version-6.13.7-success.svg" alt="Current npm package version." />
   <img src="https://img.shields.io/badge/builder-Typescript-blue.svg" alt="Builder library." />
-  <img src="https://img.shields.io/badge/formatter-Prettier-ff69b4.svg" alt="Code formatter." />
+  <img src="https://img.shields.io/badge/formatter-Prettier-blueviolet.svg" alt="Code formatter." />
+  <img src="https://img.shields.io/badge/api-Rellax-yellow.svg" alt="Code formatter." />
+  <img src="https://img.shields.io/badge/preprocessor-Sass-ff69b4.svg" alt="Code formatter." />
 </p>
 
 ## Contents
 
 - [Description](#-description)
-- [Creators](#-creators)
+- [Creator](#-creator)
 - [License](#-license)
 
 ## 📋 Description
