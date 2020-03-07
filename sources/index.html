@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>API :: Pointer Lock</title>
+		<link rel="stylesheet" href="assets/styles/import.css" />
+		<link
+			rel="stylesheet"
+			href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+		/>
+		<link rel="icon" href="./favicon.ico" />
+	</head>
+
+	<body>
+		<header>
+			<section>
+				<article class="container-title">
+					<span
+						class="rellax"
+						data-rellax-speed="-4"
+						data-rellax-percentage="0.5"
+						>api pointer lock</span
+					>
+				</article>
+				<article class="container-information">
+					<div
+						class="rellax glass"
+						data-rellax-speed="-2"
+						data-rellax-percentage="0.5"
+					>
+						<h1>mazesome</h1>
+						<h2>&copy; alejandro torres</h2>
+						<div class="social-media">
+							<a href="#"><i class="fab fa-github"></i></a>
+							<a href="#"><i class="fab fa-codepen"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+					</div>
+				</article>
+			</section>
+			<section>
+				<div class="mouse" id="roller">
+					<div class="roller"></div>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="container-scout">
+				<article class="scout" id="scout">
+					Posición | X <span id="scoutX">---</span> Y
+					<span id="scoutY">---</span>
+				</article>
+			</section>
+			<section class="container-canvas">
+				<canvas id="canvas" width="800" height="500"></canvas>
+			</section>
+		</main>
+	</body>
+
+	<script src="apis/rellax.js"></script>
+	<script src="apis/rellax.app.js"></script>
+	<script src="apis/scroll.js"></script>
+	<script src="../dist/index.js"></script>
+</html>

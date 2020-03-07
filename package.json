@@ -1,0 +1,52 @@
+{
+	"name": "api-pointer-lock",
+	"version": "0.0.6",
+	"description": "Pointer Lock provides input methods based on the movement of the mouse over time, not just the absolute position of the mouse cursor",
+	"main": "./sources/index.html",
+	"scripts": {
+		"build:prod": "tsc",
+		"build:dev": "tsc -w",
+		"format": "prettier --write \"sources/**/*.js\"",
+		"start:prod": "sass sources/assets/styles/import.scss:sources/assets/styles/import.css --style compressed",
+		"start:dev": "sass --watch sources/assets/styles/import.scss:sources/assets/styles/import.css --style compressed",
+		"release": "standard-version"
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+			"pre-commit": "pretty-quick --staged",
+			"pre-push": "npm run release"
+		}
+	},
+	"homepage": "https://github.com/PolitecnicoDAW/api-pointer-lock#readme",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.11.2"
+	},
+	"devDependencies": {
+		"@commitlint/config-angular": "^8.3.4",
+		"commitlint": "^8.3.5",
+		"husky": "^4.2.2",
+		"prettier": "1.19.1",
+		"pretty-quick": "^2.0.1",
+		"standard-version": "^7.1.0",
+		"typescript": "2.1.6"
+	},
+	"keywords": [
+		"TYPESCRIPT",
+		"JAVASCRIPT",
+		"HTML5",
+		"SASS",
+		"COMMITLINT",
+		"CHANGELOG",
+		"HUSKY"
+	],
+	"author": "Alejandro Torres",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PolitecnicoDAW/api-pointer-lock.git"
+	},
+	"bugs": {
+		"url": "https://github.com/PolitecnicoDAW/api-pointer-lock/issues"
+	}
+}

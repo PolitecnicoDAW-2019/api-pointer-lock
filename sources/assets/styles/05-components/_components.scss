@@ -1,0 +1,52 @@
+.glass {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	height: 350px;
+	border-radius: 8px;
+	backdrop-filter: blur(9px) saturate(120%);
+	background-color: rgba(255, 255, 255, 0.03);
+
+	h1 {
+		text-transform: uppercase;
+		color: #272727;
+		font-size: 2.5em;
+		margin-bottom: -10px;
+	}
+
+	h2 {
+		text-transform: capitalize;
+		color: #222222;
+		font-size: 1.2em;
+		margin-bottom: 1em;
+	}
+
+	.social-media {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+		width: auto;
+		height: auto;
+
+		a {
+			color: $colorLight;
+			opacity: 0.5;
+			font-size: 1.2em;
+			margin: 0.5em;
+			transition: opacity 0.2s ease;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+/*@media only screen and (min-width: 1920px) {
+}
+
+@media only screen and (max-width: 530px) {
+}*/
