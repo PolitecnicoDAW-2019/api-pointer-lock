@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.5](https://github.com/PolitecnicoDAW/api-pointer-lock/compare/v0.0.4...v0.0.5) (2020-03-07)
+
 <p align="center">
   <img src="./private/favicon.svg" alt="React Logo" width="150" height="100">
 </p>
